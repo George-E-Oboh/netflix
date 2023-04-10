@@ -1,0 +1,12 @@
+user: # https://docs.aws.amazon.com/ja_jp/AWSCloudFormation/latest/UserGuide/aws-resource-codecommit-repository.html
+codecommitrepository:
+  Type: AWS::CodeCommit::Repository
+  Properties: 
+    Code: 
+      Code
+    RepositoryDescription: String
+    RepositoryName: String
+    Tags: 
+      - Tag
+    Triggers: 
+      - RepositoryTrigger
